@@ -8,8 +8,8 @@ moved to Node server.js.
 
 To run the application use the following commands
 
-*npm install*
+**_npm install_**
 
-*node server.js*
+**_node server.js_**
 
 And application will be running on http://localhost:3300/
