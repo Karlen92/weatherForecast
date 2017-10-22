@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/forecastDetailedInfo.css">
+    <link rel="stylesheet" href="assets/styles/dailyForecastCell.css">
+</head>
+
+<body>
+<div class="container text-center">
+    <select style="width:15%" id='citySelect'>
+    </select>
+    <div class="weather-info text-center">
+        <div id="weather-info">
+            loading...
+        </div>
+
+        <div id="forecasts" class="text-center forecast_info">
+
+        </div>
+
+    </div>
+
+</div>
+<script src="dev/utils/fetchAPI.js"></script>
+<script src="dev/utils/utils.js"></script>
+<script src="dev/utils/skyIcons.js"></script>
+<script src="dev/utils/constants.js"></script>
+<script src="dev/api/weatherAPI.js"></script>
+<script src="dev/views/dailyForecat.js"></script>
+<script src="dev/views/deatiledForecastInfo.js"></script>
+<script src="dev/dataModel/dataModel.js"></script>
+<script src="dev/brokers/mainBroker.js"></script>
+</body>
+
+
+</html>

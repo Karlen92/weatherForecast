@@ -1,0 +1,35 @@
+.detailedInfoWrapper {
+    width: 60%;
+    margin: auto;
+    display: table;
+    min-height: 200px;
+    background-color: #e8ebef;
+}
+
+.forecastInfoTemperature {
+    display: block;
+    margin: 6px;
+    color: #6b6d6d;
+}
+
+.forecastInfoTime {
+    color: #575e7b;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.forecastInfoWeatherIcon {
+    display: table;
+    width: 20%;
+    margin: auto;
+}
+
+.forecastInfoSummary {
+    text-align: center;
+    margin: 2px;
+    color: #586680;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 30px;
+}
