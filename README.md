@@ -1,10 +1,10 @@
 # weatherForecast
 
-I've chosen developer.forecast.io from the list.
+developer.forecast.io is chosen for as weather API.
 
-I've build a tiny web-server, to serve my request to the mentioned API, because APIs doesn't allow CORS requests.
-I tried with fetch no-cors mode, but it was not possible to get json from 'opaque' type response. So the transfer part 
-moved to Node server.js, it just transfers data, no logic at all.
+I've build a tiny web-server, to serve requests to the mentioned API, because APIs don't allow CORS requests.
+I tried with fetch API no-cors mode, but it was not possible to get json from 'opaque' type response. So the transfer part 
+moved to Node server.js.
 
 To run the application use the following commands
 
@@ -14,4 +14,4 @@ and then
 
 node server.js
 
-and application will be runing on http://localhost:3300/
+And application will be running on http://localhost:3300/
