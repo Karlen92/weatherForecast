@@ -1,6 +1,6 @@
 # weatherForecast
 
-Simple Weather forcast we page with developer.forecast.io weather API.
+Simple Weather forcast web page with developer.forecast.io weather API.
 
 To run the application use the following commands
 
