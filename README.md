@@ -1,6 +1,6 @@
 # weatherForecast
 
-developer.forecast.io is chosen for as weather API.
+Simple Weather forcast we page with developer.forecast.io weather API.
 
 To run the application use the following commands
 
